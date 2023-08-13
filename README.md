@@ -4,7 +4,7 @@ A simple Recipe website that uses Edamam Recipe API to generate recipes. It pull
 ## Why?
 - I wanted a way that both introduces me to React and at the same time how I can pull specific data from APIs.
 
-## Technologies
+## Languages and Technologies
 - HTML
 - CSS
 - React Javascript
