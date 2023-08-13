@@ -1,0 +1,79 @@
+.App {
+  text-align: center;
+  min-height: 100vh;
+  background-image: linear-gradient(to top, #ebbba7 0%, #cfc7f8 100%);
+}
+.App h1 {
+  margin: 0;
+  padding: 0;
+}
+
+.RecipeCard {
+  display: flex;
+  border: 1px solid #ccc;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 8px;
+  background-color: rgba(255, 255, 255, 0);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border: 5px solid rgb(238, 76, 197);
+}
+
+.RecipeInfo {
+  flex: 2;
+  padding: 10px;
+}
+
+.RecipeImage {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.RecipeImage img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+}
+
+.sbar {
+  width: 50%;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  margin: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.sbutton {
+  width: 20%;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  margin: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: rgb(238, 76, 197);
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+body {
+  font-family: 'Verdana', sans-serif; 
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-size: 2.5rem;
+  color: #333; /* Choose a text color */
+  margin-bottom: 1rem;
+}
+
+/* Style paragraphs */
+p {
+  font-size: 1.1rem;
+  color: #555; /* Choose a text color */
+  line-height: 1.5;
+  margin-bottom: 1rem;
+}
